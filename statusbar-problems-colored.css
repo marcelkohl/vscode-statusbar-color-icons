@@ -1,0 +1,37 @@
+div[id="status.problems"] span.codicon:not(:first-child) {
+  padding-left: 4px;
+}
+
+div[id="status.problems"] span.codicon, [id="status.problems"] span.codicon-value {
+  display: none;
+}
+
+div[id="status.problems"] a[aria-label*="Errors:"] span.codicon-error {
+  color: #ff6060 !important;
+  display: block;
+}
+
+div[id="status.problems"] a[aria-label*="Errors:"] span.codicon-error-value {
+  color: #ff6060 !important;
+  display: block;
+}
+
+div[id="status.problems"] a[aria-label*="Warnings:"] span.codicon-warning {
+  color: #ffc94d !important;
+  display: block;
+}
+
+div[id="status.problems"] a[aria-label*="Warnings:"] span.codicon-warning-value {
+  color: #ffc94d !important;
+  display: block;
+}
+/* 
+div[id="status.problems"] a[aria-label*="Infos:"] span.codicon-info {
+  color: #29a9ff !important;
+  display: block;
+}
+
+div[id="status.problems"] a[aria-label*="Infos:"] span.codicon-info-value {
+  color: #29a9ff !important;
+  display: block;
+} */
